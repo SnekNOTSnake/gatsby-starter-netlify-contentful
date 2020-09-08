@@ -4,8 +4,10 @@ import Navigation from './Navigation'
 const Layout = ({ children }) => {
 	return (
 		<div>
-			<Navigation />
-			{children}
+			<div style={{ maxWidth: 800, margin: '0 auto' }}>
+				<Navigation />
+				{children}
+			</div>
 		</div>
 	)
 }

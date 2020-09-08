@@ -25,11 +25,15 @@
 		"gatsby-plugin-offline": "^3.2.27",
 		"gatsby-plugin-react-helmet": "^3.3.10",
 		"gatsby-plugin-sharp": "^2.6.32",
+		"gatsby-plugin-typography": "^2.5.10",
 		"gatsby-source-contentful": "^2.3.42",
 		"gatsby-transformer-remark": "^2.8.33",
 		"gatsby-transformer-sharp": "^2.5.14",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
-		"react-helmet": "^6.1.0"
+		"react-helmet": "^6.1.0",
+		"react-typography": "^0.16.19",
+		"typography": "^0.16.19",
+		"typography-theme-fairy-gates": "^0.16.19"
 	}
 }

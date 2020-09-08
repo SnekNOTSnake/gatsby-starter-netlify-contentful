@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import { rhythm } from '../utils/typography'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 
@@ -11,7 +12,7 @@ const BlogPost = ({ data }) => {
 			<SEO title={post.title} />
 			<h2>{post.title}</h2>
 			<div>by: {post.author.name}</div>
-			<div style={{ maxWidth: 700 }}>
+			<div style={{ width: '100%', margin: `${rhythm(1)} 0` }}>
 				<Img alt={post.title} fluid={post.heroImage.fluid} />
 			</div>
 			<p>{post.description.description}</p>

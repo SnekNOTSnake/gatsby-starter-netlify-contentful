@@ -3,9 +3,21 @@ import { Link } from 'gatsby'
 
 const Layout = () => {
 	return (
-		<nav>
-			<Link to="/">Home</Link>
-			<Link to="/about">About</Link>
+		<nav
+			style={{
+				width: '100%',
+				display: 'flex',
+				height: 64,
+				alignItems: 'center',
+				justifyContent: 'flex-end',
+			}}
+		>
+			<Link style={{ marginLeft: 16 }} to="/">
+				Home
+			</Link>
+			<Link style={{ marginLeft: 16 }} to="/about">
+				About
+			</Link>
 		</nav>
 	)
 }
